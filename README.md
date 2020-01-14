@@ -4,7 +4,7 @@ When you clone or download the project, execute commands below.
 
 - composer install
 - cp .env.example .env
-- edit .env file to the set database connection informations
+- edit .env file to set the database connection informations
 - php artisan migrate
 - php artisan db:seed (create sample data into database)
 - php artisan key:generate
